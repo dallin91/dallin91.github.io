@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jane Doe — Software Engineer</title>
+<meta name="description" content="Portfolio of Jane Doe — software engineer. Resume, about me, and projects.">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">Jane Doe</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Jane Doe</h1>
+        <h2 class="tagline">Software Engineer building thoughtful web experiences</h2>
+        <p class="hero-pitch">
+          I design and build reliable, user-friendly web applications from front to back.
+          I care about clean code, good UX, and shipping things that actually help people.
+        </p>
+        <div class="hero-actions">
+          <a href="#resume" class="btn btn-primary">View Resume</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:jane.doe@example.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/profile.svg" alt="Portrait of Jane Doe">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a software engineer with a background in building web applications end to end —
+            from designing APIs and data models to crafting the interfaces people actually use.
+            I enjoy the moment a rough idea turns into something real that other people can click on.
+          </p>
+          <p>
+            Outside of writing code, I like breaking down interesting problems, contributing to
+            open source when I can, and learning just enough about a new technology to know whether
+            it's worth using or worth avoiding.
+          </p>
+          <p>
+            I'm currently looking for opportunities where I can grow as an engineer while working
+            on products that make a real difference for the people who use them.
+          </p>
+        </div>
+        <ul class="quick-facts">
+          <li><span class="fact-label">Location</span><span>Seattle, WA</span></li>
+          <li><span class="fact-label">Focus</span><span>Full-stack web development</span></li>
+          <li><span class="fact-label">Interests</span><span>Developer tools, accessibility, UI design</span></li>
+          <li><span class="fact-label">Currently</span><span>Open to new opportunities</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section section-alt">
+    <div class="container">
+      <div class="resume-header">
+        <h2 class="section-title">Resume</h2>
+        <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+      </div>
+
+      <h3 class="subsection-title">Experience</h3>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Software Engineer <span class="timeline-company">— Acme Technologies</span></h4>
+            <p class="timeline-dates">Jun 2023 — Present</p>
+            <ul>
+              <li>Built and maintained customer-facing features for a web app used by thousands of users.</li>
+              <li>Improved page load performance by 35% through code splitting and caching improvements.</li>
+              <li>Collaborated with design and product to ship a redesigned onboarding flow.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Junior Developer <span class="timeline-company">— Northwind Software</span></h4>
+            <p class="timeline-dates">Jul 2021 — Jun 2023</p>
+            <ul>
+              <li>Developed internal tooling that reduced manual reporting time by several hours per week.</li>
+              <li>Wrote automated tests that raised backend test coverage from 40% to 80%.</li>
+              <li>Participated in code reviews and mentored two summer interns.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Software Engineering Intern <span class="timeline-company">— Contoso Labs</span></h4>
+            <p class="timeline-dates">Jun 2020 — Aug 2020</p>
+            <ul>
+              <li>Built a prototype dashboard for visualizing internal usage metrics.</li>
+              <li>Fixed bugs and shipped small features alongside a team of senior engineers.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="subsection-title">Education</h3>
+      <div class="education-item">
+        <h4>B.S. in Computer Science <span class="timeline-company">— University of Washington</span></h4>
+        <p class="timeline-dates">2017 — 2021</p>
+      </div>
+
+      <h3 class="subsection-title">Skills</h3>
+      <div class="skills-groups">
+        <div class="skills-group">
+          <p class="skills-group-label">Languages</p>
+          <div class="skill-chips">
+            <span class="chip">JavaScript</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <p class="skills-group-label">Frameworks & Libraries</p>
+          <div class="skill-chips">
+            <span class="chip">React</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Express</span>
+            <span class="chip">Django</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <p class="skills-group-label">Tools</p>
+          <div class="skill-chips">
+            <span class="chip">Git</span>
+            <span class="chip">Docker</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">AWS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">A few things I've built. Replace these with your own projects in <code>js/main.js</code>.</p>
+      <div id="projects-grid" class="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-inner">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-intro">
+        I'm always happy to hear about new opportunities or interesting projects. Feel free to reach out.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:jane.doe@example.com" class="btn btn-primary">jane.doe@example.com</a>
+        <a href="https://github.com/your-username" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Jane Doe. Built with plain HTML, CSS &amp; JS.</p>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
