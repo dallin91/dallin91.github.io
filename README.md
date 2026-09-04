@@ -2,8 +2,6 @@
 
 A personal portfolio site — resume, about me, and projects — built with plain HTML, CSS, and JavaScript. No frameworks, no build step.
 
-> Note: this folder also contains `job-alert/`, an unrelated Python project. It's not part of this site.
-
 ## Structure
 
 ```
@@ -34,7 +32,6 @@ Then visit `http://localhost:8000`.
     description: "A short description of what it does.",
     image: "assets/images/projects/project-1.svg",
     tags: ["React", "Node.js"],
-    liveUrl: "https://example.com",
     repoUrl: "https://github.com/your-username/my-project",
   }
   ```
