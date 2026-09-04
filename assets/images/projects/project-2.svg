@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225">
   <rect width="400" height="225" fill="#e6f4ff"/>
-  <text x="200" y="118" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a73b0" text-anchor="middle">Weather Dashboard</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a73b0" text-anchor="middle">Houston Texans Recap</text>
+  <text x="200" y="136" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#1a73b0" text-anchor="middle" opacity="0.75">(Work in Progress)</text>
 </svg>
