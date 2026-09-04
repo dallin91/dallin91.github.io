@@ -5,3 +5,6 @@ Thumbs.db
 # Unrelated project and local Claude Code config living in this same folder
 job-alert/
 .claude/
+
+# Personal local notes, not meant for the public repo
+PROJECT_GUIDE.md
