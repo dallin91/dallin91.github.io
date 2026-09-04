@@ -2,36 +2,25 @@
 // Add or edit projects here. Each entry renders as one card in the Projects section.
 const projects = [
   {
-    title: "Task Tracker App",
-    description: "A drag-and-drop task board with boards, lists, and cards, built for personal productivity.",
+    title: "Streaming Service Analysis",
+    description: "An analysis of which streaming services provide the most bang for your buck.",
     image: "assets/images/projects/project-1.svg",
-    tags: ["React", "Node.js", "PostgreSQL"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/your-username/task-tracker",
+    tags: ["Python", "PostgreSQL", "Tableau"],
+    repoUrl: "https://github.com/dallin91/streaming-service-analysis-2026",
   },
   {
-    title: "Weather Dashboard",
-    description: "A responsive dashboard showing live weather and forecasts for saved locations.",
+    title: "Houston Texans Recap (Work in Progress)",
+    description: "A statistical deep-dive into 24 seasons of Houston Texans football.",
     image: "assets/images/projects/project-2.svg",
-    tags: ["JavaScript", "REST API", "Chart.js"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/your-username/weather-dashboard",
+    tags: ["Python", "PostgreSQL", "Power BI"],
+    repoUrl: "https://github.com/dallin91/houston-texans-recap",
   },
   {
-    title: "E-Commerce Storefront",
-    description: "A storefront clone with product listings, a cart, and a mock checkout flow.",
+    title: "Baseball Pitch-Hit Predictor (Work in Progress)",
+    description: "A model that will predict whether any given pitch will be a strike or not.",
     image: "assets/images/projects/project-3.svg",
     tags: ["React", "Express", "Stripe API"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/your-username/storefront-clone",
-  },
-  {
-    title: "Personal Finance Visualizer",
-    description: "A tool for tracking spending and visualizing budgets across categories over time.",
-    image: "assets/images/projects/project-4.svg",
-    tags: ["Python", "Django", "D3.js"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/your-username/finance-visualizer",
+    repoUrl: "https://github.com/dallin91/pitch-hit-predictor",
   },
 ];
 
@@ -51,7 +40,6 @@ function renderProjects() {
               ${project.tags.map((tag) => `<span class="chip">${tag}</span>`).join("")}
             </div>
             <div class="project-links">
-              <a href="${project.liveUrl}" target="_blank" rel="noopener">Live Demo</a>
               <a href="${project.repoUrl}" target="_blank" rel="noopener">Source Code</a>
             </div>
           </div>
