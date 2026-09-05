@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225">
   <rect width="400" height="225" fill="#fff0e6"/>
-  <text x="200" y="110" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#c25a1a" text-anchor="middle">Baseball Pitch-Hit Predictor</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#c25a1a" text-anchor="middle">Baseball Pitch-Strike Predictor</text>
   <text x="200" y="136" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#c25a1a" text-anchor="middle" opacity="0.75">(Work in Progress)</text>
 </svg>
