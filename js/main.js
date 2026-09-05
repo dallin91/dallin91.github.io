@@ -16,10 +16,10 @@ const projects = [
     repoUrl: "https://github.com/dallin91/houston-texans-recap",
   },
   {
-    title: "Baseball Pitch-Hit Predictor (Work in Progress)",
+    title: "Baseball Pitch-Strike Predictor (Work in Progress)",
     description: "A model that will predict whether any given pitch will be a strike or not.",
     image: "assets/images/projects/project-3.svg",
-    tags: ["React", "Express", "Stripe API"],
+    tags: ["Python", "React", "Machine Learning"],
     repoUrl: "https://github.com/dallin91/pitch-hit-predictor",
   },
 ];
