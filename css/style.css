@@ -283,10 +283,11 @@ p {
 
 .hero-image img {
   width: 100%;
-  max-width: 21rem;
+  max-width: 16.25rem;
   margin-left: auto;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  border-radius: 50%;
   border: 1px solid var(--ink);
 }
 
@@ -708,7 +709,7 @@ p {
   }
 
   .hero-image img {
-    max-width: 18rem;
+    max-width: 11.25rem;
   }
 }
 
