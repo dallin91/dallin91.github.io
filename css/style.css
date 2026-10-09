@@ -283,11 +283,10 @@ p {
 
 .hero-image img {
   width: 100%;
-  max-width: 26rem;
+  max-width: 21rem;
   margin-left: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: 50% 28%;
   border: 1px solid var(--ink);
 }
 
