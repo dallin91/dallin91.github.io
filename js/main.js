@@ -32,7 +32,6 @@ function renderProjects() {
     .map(
       (project) => `
         <article class="project-card">
-          <img src="${project.image}" alt="${project.title} preview" loading="lazy">
           <div class="project-card-body">
             <h3>${project.title}</h3>
             <p>${project.description}</p>
